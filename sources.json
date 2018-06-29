@@ -1,4 +1,14 @@
 {
+  "demo": [
+    {
+      "name": "amz_listing_us_demo",
+      "title": "采集亚马逊(美国)的listing页面(演示)"
+    },
+    {
+      "name": "zhihu_home",
+      "title": "采集知乎首页(演示)"
+    }
+  ],
   "amazon": [
     {
       "name": "amz_us_order_buyer",
