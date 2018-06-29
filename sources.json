@@ -1,0 +1,14 @@
+{
+  "amazon": [
+    {
+      "name": "amz_us_order_buyer",
+      "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
+      "description": ""
+    },
+    {
+      "name": "amz_us_reviews",
+      "title": "采集了亚马逊(美国)的商品评论页面",
+      "description": ""
+    }
+  ]
+}
