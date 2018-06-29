@@ -2,21 +2,25 @@
   "demo": [
     {
       "name": "amz_listing_us_demo",
-      "title": "采集亚马逊(美国)的listing页面(演示)"
+      "title": "采集亚马逊(美国)的listing页面(演示)",
+      "version": 1
     },
     {
       "name": "zhihu_home",
-      "title": "采集知乎首页(演示)"
+      "title": "采集知乎首页(演示)",
+      "version": 1
     }
   ],
   "amazon": [
     {
       "name": "amz_us_order_buyer",
-      "title": "匹配亚马逊(美国)卖家中心的订单与顾客"
+      "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
+      "version": 1
     },
     {
       "name": "amz_us_reviews",
-      "title": "采集了亚马逊(美国)的商品评论页面"
+      "title": "采集了亚马逊(美国)的商品评论页面",
+      "version": 1
     }
   ]
 }
