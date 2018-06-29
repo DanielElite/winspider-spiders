@@ -13,7 +13,7 @@
 
 **截图**：
 
-![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/docs/images/4d2246628f16e31a9fcf0b84f82ce29b.png)
+![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/docs/images/20180629181608.PNG)
 
 ### 注意事项
 
