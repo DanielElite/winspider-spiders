@@ -17,13 +17,13 @@
     {
       "name": "amz_us_order_buyer",
       "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
-      "path": "demo/amz_us_order_buyer",
+      "path": "amazon/amz_us_order_buyer",
       "version": 1
     },
     {
       "name": "amz_us_reviews",
       "title": "采集了亚马逊(美国)的商品评论页面",
-      "path": "demo/amz_us_reviews",
+      "path": "amazon/amz_us_reviews",
       "version": 1
     }
   ]
