@@ -15,9 +15,9 @@
 
 **截图**：
 
-![](/_uploads/PHOTOS/201821/c709ee11850d822642386b680259e32d_s.jpg)
+![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/images/c709ee11850d822642386b680259e32d_s.jpg)
 
-![](/_uploads/PHOTOS/201821/8e5a3e61a2271dda9529aea69c719135_s.jpg)
+![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/images/8e5a3e61a2271dda9529aea69c719135_s.jpg)
 
 
 ### 注意事项
@@ -26,7 +26,7 @@
 - 使用过程中请确保亚马逊(美国)卖家中心处于登录状态
 - 本爬虫需要您提前保存Chrome的UserAgent
 
-`爬虫的运行环境都在电脑本地，不会造成店铺关联，请放心使用`
+`爬虫的运行环境为电脑本地，不会造成店铺关联，请放心使用`
 
 ### 操作帮助
 
@@ -34,7 +34,7 @@
 
 请在爬虫的配置文件夹中任意新建一个`txt文件`，将`订单id(orderid)`列表填入其中，如下图所示。**程序解析完该txt文件后，会删除文件，不会保留。如需再次采集，请重新配置采集文件**。
 
-![](/_uploads/PHOTOS/201821/0ad1a8daf65cc8b9e041335a946940ac.png)
+![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/images/0ad1a8daf65cc8b9e041335a946940ac.png)
 
 ### 相关爬虫
 无
