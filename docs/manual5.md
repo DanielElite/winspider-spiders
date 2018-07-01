@@ -10,7 +10,7 @@
 
 	使用cmd打开winspider，然后使用Chrome（**一定是Chrome**）访问 http://127.0.0.1:5000/winspider ，接着点击`保存Chrome的UserAgent`。
     
-    ![](https://box.kancloud.cn/a5df47352e6400419a2b910f9bd155e7_1147x112.png)
+    ![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/docs/images/20180701162729.png)
     
 ## 调节爬虫的采集速度（rate/burst）
 
