@@ -72,6 +72,12 @@
     "version": 1
   },
   {
+    "name": "amz_best_seller_us",
+    "title": "采集亚马逊(美国)的BestSeller榜单数据",
+    "group": "amazon/BestSeller",
+    "version": 1
+  },
+  {
     "name": "amz_order_buyer_us",
     "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
     "group": "amazon/order",
