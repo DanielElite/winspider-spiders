@@ -14,13 +14,13 @@
   {
     "name": "amz_order_buyer_us",
     "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
-    "group": "amazon",
+    "group": "amazon/order",
     "version": 1
   },
   {
-    "name": "amz_reviews_us",
+    "name": "amz_review_us",
     "title": "采集了亚马逊(美国)的商品评论页面",
-    "group": "amazon",
+    "group": "amazon/review",
     "version": 1
   }
 ]
