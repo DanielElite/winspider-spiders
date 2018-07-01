@@ -49,13 +49,13 @@ class AmzHandler(BaseHandler, HandlerMixin):
                     'author': ''.join(element.xpath('div[2]/span[1]/a/text()')),
                     'asin': response.save['asin'],
                     'child_asin': _child_asin.group(1) if _child_asin else response.save['asin'],
-                    'review_date': ''.join(element.xpath("div//span[@data-hook='review-date']/text()")),
+                    'date': ''.join(element.xpath("div//span[@data-hook='review-date']/text()")),
                     'color': ' '.join(element.xpath("div[3]/a/text()")),
                     'verified_purchase': 1 if ''.join(element.xpath("div[3]/span/a/span/text()")) else 0,
-                    'review_text': '\n'.join(element.xpath("div/span[@data-hook='review-body']//text()")),
-                    'w_comments': ''.join(
+                    'text': '\n'.join(element.xpath("div/span[@data-hook='review-body']//text()")),
+                    'comments': ''.join(
                         element.xpath("div/div/a/span/span[@class='review-comment-total aok-hidden']/text()")),
-                    'review_votes': ''.join(element.xpath("div[7]/div/span[3]/span/span[1]/span/text()")),
+                    'votes': ''.join(element.xpath("div[7]/div/span[3]/span/span[1]/span/text()")),
                     'review_id': ''.join(element.xpath("parent::div/@id"))
                 },
                 'https://www.amazon.co.uk' + ''.join(element.xpath("div[1]/a[2]/@href"))

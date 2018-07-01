@@ -25,7 +25,7 @@ class AmzHandler(BaseHandler, HandlerMixin):
                     if not keyword: continue
                     for page in range(1, 11):
                         self.crawl_with_chrome_cookies(
-                            'https://www.amazon.com/gp/search/ref=sr_pg_2?' + urlencode(
+                            'https://www.amazon.de/gp/search/ref=sr_pg_2?' + urlencode(
                                 {'keywords': keyword, 'page': page}),
                             callback=self.details_page,
                             validate_cert=False,
@@ -56,7 +56,7 @@ class AmzHandler(BaseHandler, HandlerMixin):
                     'is_ad': 1 if element.xpath("div//h5") else 0,
                     'is_bestseller': 1 if element.xpath("div//a[contains(@id, 'BESTSELLER')]") else 0
                 },
-                'https://www.amazon.com#%s#%i#%i' % (response.save['keyword'], response.save['page'], i + 1)
+                'https://www.amazon.de#%s#%i#%i' % (response.save['keyword'], response.save['page'], i + 1)
             )
 
     def on_message(self, project, msg):

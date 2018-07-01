@@ -13,32 +13,62 @@
   },
   {
     "name": "amz_review_us",
-    "title": "采集了亚马逊(美国)的商品评论页面(前5页)",
+    "title": "采集亚马逊(美国)的商品评论页面(前5页)",
     "group": "amazon/review",
     "version": 1
   },
   {
     "name": "amz_review_de",
-    "title": "采集了亚马逊(德国)的商品评论页面(前5页)",
+    "title": "采集亚马逊(德国)的商品评论页面(前5页)",
     "group": "amazon/review",
     "version": 1
   },
   {
     "name": "amz_review_es",
-    "title": "采集了亚马逊(西班牙)的商品评论页面(前5页)",
+    "title": "采集亚马逊(西班牙)的商品评论页面(前5页)",
     "group": "amazon/review",
     "version": 1
   },
   {
     "name": "amz_review_jp",
-    "title": "采集了亚马逊(日本)的商品评论页面(前5页)",
+    "title": "采集亚马逊(日本)的商品评论页面(前5页)",
     "group": "amazon/review",
     "version": 1
   },
   {
     "name": "amz_review_uk",
-    "title": "采集了亚马逊(英国)的商品评论页面(前5页)",
+    "title": "采集亚马逊(英国)的商品评论页面(前5页)",
     "group": "amazon/review",
+    "version": 1
+  },
+  {
+    "name": "amz_keyword_us",
+    "title": "采集亚马逊(美国)的搜索关键词页面(前10页)",
+    "group": "amazon/keyword",
+    "version": 1
+  },
+  {
+    "name": "amz_keyword_de",
+    "title": "采集亚马逊(德国)的搜索关键词页面(前10页)",
+    "group": "amazon/keyword",
+    "version": 1
+  },
+  {
+    "name": "amz_keyword_es",
+    "title": "采集亚马逊(西班牙)的搜索关键词页面(前10页)",
+    "group": "amazon/keyword",
+    "version": 1
+  },
+  {
+    "name": "amz_keyword_jp",
+    "title": "采集亚马逊(日本)的搜索关键词页面(前10页)",
+    "group": "amazon/keyword",
+    "version": 1
+  },
+  {
+    "name": "amz_keyword_uk",
+    "title": "采集亚马逊(英国)的搜索关键词页面(前10页)",
+    "group": "amazon/keyword",
     "version": 1
   },
   {
