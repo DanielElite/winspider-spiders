@@ -1,4 +1,5 @@
 [
+  // 爬虫demo，用于列举winspider的相关功能
   {
     "name": "amz_listing_us_demo",
     "title": "采集亚马逊(美国)的listing页面(演示)",
@@ -11,16 +12,42 @@
     "group": "demo",
     "version": 1
   },
+  // AMAZON的商品评论页面
+  {
+    "name": "amz_review_us",
+    "title": "采集了亚马逊(美国)的商品评论页面(前5页)",
+    "group": "amazon/review",
+    "version": 1
+  },
+  {
+    "name": "amz_review_de",
+    "title": "采集了亚马逊(德国)的商品评论页面(前5页)",
+    "group": "amazon/review",
+    "version": 1
+  },
+  {
+    "name": "amz_review_es",
+    "title": "采集了亚马逊(西班牙)的商品评论页面(前5页)",
+    "group": "amazon/review",
+    "version": 1
+  },
+  {
+    "name": "amz_review_jp",
+    "title": "采集了亚马逊(日本)的商品评论页面(前5页)",
+    "group": "amazon/review",
+    "version": 1
+  },
+  {
+    "name": "amz_review_uk",
+    "title": "采集了亚马逊(英国)的商品评论页面(前5页)",
+    "group": "amazon/review",
+    "version": 1
+  },
+  //
   {
     "name": "amz_order_buyer_us",
     "title": "匹配亚马逊(美国)卖家中心的订单与顾客",
     "group": "amazon/order",
-    "version": 1
-  },
-  {
-    "name": "amz_review_us",
-    "title": "采集了亚马逊(美国)的商品评论页面",
-    "group": "amazon/review",
     "version": 1
   }
 ]
