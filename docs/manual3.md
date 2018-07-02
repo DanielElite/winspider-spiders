@@ -8,13 +8,11 @@
     
 * 打开爬虫的配置文件夹路径
 
-    如图，点击爬虫名称后的小图标。
+    爬虫默认的配置文件夹为`C:\winspider\[爬虫名称]`，那么amz_listing_us_demo的配置文件夹为`C:\winspider\amz_listing_us_demo`。
     
-    ![](https://box.kancloud.cn/5f12d827316b556b4ec10e0a90b78b00_652x92.png)
+    打开**资源管理器（我的电脑）**，在地址栏中输入`C:\winspider\amz_listing_us_demo`，然后回车。资源管理器提示*找不到该文件路径*。
     
-    打开**资源管理器（我的电脑）**，在地址栏中按下粘贴快捷键（`Ctrl + V`），然后回车。资源管理器提示*找不到该文件路径*。
-    
-    ![](https://box.kancloud.cn/e135a578772c59fd072bb5b80ca73fdd_897x339.png)
+    ![](https://raw.githubusercontent.com/zebra-cl/winspider-spiders/master/docs/images/20180702094425.png)
     
     回到pyspider的管理页面，更改爬虫的状态，并点击`run`。
     
