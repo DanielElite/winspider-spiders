@@ -78,13 +78,13 @@
     "version": 1
   },
   {
-    "name": "amz_movers_shakers_us.md",
+    "name": "amz_movers_shakers_us",
     "title": "采集亚马逊(美国)的飙升榜数据",
     "group": "amazon/MoversShakers",
     "version": 1
   },
   {
-    "name": "amz_new_releases_us.md",
+    "name": "amz_new_releases_us",
     "title": "采集亚马逊(美国)的新品榜数据",
     "group": "amazon/NewReleases",
     "version": 1
